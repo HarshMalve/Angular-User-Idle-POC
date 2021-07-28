@@ -28,7 +28,7 @@ export class TimerComponent implements OnInit {
 
   ngOnInit() {
     this.idle = this.userIdle.getConfigValue().idle ; //Converting Seconds to Miliseconds
-    this.timeout = this.userIdle.getConfigValue().timeout;
+    this.timeout = this.userIdle.getConfigValue().timeout + this.idle;
     this.ping = this.userIdle.getConfigValue().ping ; //Converting Seconds to Miliseconds
     this.changeIdleValues.emit({
       idle: this.idle,
