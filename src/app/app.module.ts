@@ -8,7 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatInputModule } from '@angular/material/input';
-import {  MatCardModule } from "@angular/material/card";
+import { MatCardModule } from "@angular/material/card";
 
 import { UserIdleModule } from 'angular-user-idle';
 import { TimerComponent } from './components/timer/timer.component';
